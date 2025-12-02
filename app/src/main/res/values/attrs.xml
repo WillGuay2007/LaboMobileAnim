@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomViewAnim">
+        <attr name="color" format="color" />
+        <attr name="time" format="float" />
+        <attr name="sides" format="integer"/>
+        <attr name="size" format="dimension" />
+    </declare-styleable>
+</resources>

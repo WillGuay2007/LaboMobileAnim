@@ -8,8 +8,12 @@
     tools:context=".MainActivity">
 
     <com.example.laboanimation.CustomViewAnim
+        android:id="@+id/AnimationView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></com.example.laboanimation.CustomViewAnim>
+        android:layout_height="match_parent"
+        app:time="0"
+        app:sides="7"
+        ></com.example.laboanimation.CustomViewAnim>
 
 
 
