@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:time="0"
-        app:sides="4"
+        app:sides="7"
         app:angle="0"
         app:size="100"
         app:color="@color/black"

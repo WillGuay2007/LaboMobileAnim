@@ -80,11 +80,6 @@ class CustomViewAnim @JvmOverloads constructor(
 
     }
 
-    override fun onTouchEvent(event: MotionEvent?): Boolean {
-        Log.d("MainActivity", "Touched")
-        return super.onTouchEvent(event)
-    }
-
     override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) {
         super.onSizeChanged(w, h, oldw, oldh)
         cx = w * 0.5f
