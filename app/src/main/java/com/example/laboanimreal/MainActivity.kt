@@ -75,7 +75,6 @@ class MainActivity : AppCompatActivity() {
     override fun onPause() {
         super.onPause()
 
-        Log.d(TAG, "onResume()")
 
         cancelUpdate()
     }

@@ -4,6 +4,7 @@
         <attr name="color" format="color" />
         <attr name="time" format="float" />
         <attr name="sides" format="integer"/>
-        <attr name="size" format="dimension" />
+        <attr name="size" format="float" />
+        <attr name="angle" format="float" />
     </declare-styleable>
 </resources>
